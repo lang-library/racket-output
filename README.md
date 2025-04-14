@@ -3,7 +3,7 @@
 by JavaCommons Technologies
 <[javacommons@gmail.com](mailto:javacommons@gmail.com)>
 
- (require pprint-all) package: [pprint-all](https://pkgs.racket-lang.org/package/pprint-all)
+ (require output) package: [output](https://pkgs.racket-lang.org/package/output)
 
 This basically provides `pp`, `echo`, and `dump`.
 
@@ -15,7 +15,7 @@ This basically provides `pp`, `echo`, and `dump`.
 
 ```racket
 #lang racket/base                                   
-(require pprint-all)                                
+(require output)
                                                     
 (define x (+ 11 22))                                
 (echo x)                                            
